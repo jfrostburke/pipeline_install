@@ -1,0 +1,14 @@
+name: pipeline_test
+channels:
+    - pkgw # Peter Williams conda packages for iraf/pyraf & astroquery
+dependencies:
+    - python=2.7
+    - ipython
+    - numpy=1.12.*
+    - matplotlib
+    - astropy
+    - scipy
+    - mysql-python
+    - requests     # required for ingestion from archive.lco.global
+    - astroquery   # required to query SDSS image/photometry server
+    - statsmodels  # required for ZOGY image subtraction
