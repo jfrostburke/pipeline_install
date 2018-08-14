@@ -1,5 +1,6 @@
-name: pipeline_test
+name: pipeline
 channels:
+    - stsci
     - pkgw # Peter Williams conda packages for iraf/pyraf & astroquery
 dependencies:
     - python=2.7
