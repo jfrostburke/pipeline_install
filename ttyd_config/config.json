@@ -1,4 +1,7 @@
 {
+  "users": {
+    "cdc48e79de2dee796bb4ba1ad987f6b35ce1c1ee": "e5e2fd088c15a04a9cf4f505073892c33b504a88"
+  },
   "shell": "bash",
   "term": {
     "termName": "xterm-256color",
